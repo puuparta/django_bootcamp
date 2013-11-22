@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+	{% block sidebar %}
+	<!-- overridataan sidebar-->
+<ul>
+	<li><a href="/articles/all">Articles</a></li>
+</ul>
+{% endblock %}
+{% block sisalto %}
+<h1>{{article.title}}</h1>
+<p>{{article.body}}</p>
+{% endblock %}
+
+

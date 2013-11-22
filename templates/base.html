@@ -1,0 +1,16 @@
+<html>
+<body>
+<h1>Article page</h1>
+
+<div>
+	{% block sidebar %}
+<ul>
+	<li><a href="/articles/all">Articles</a></li>
+	<li><a href="/admin">Admin</a></li>
+</ul>
+{% endblock %}
+</div>
+<div id="content">
+{% block sisalto %}{% endblock %}
+</div>
+</body>
