@@ -1,0 +1,10 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.template.loader import get_template
+from django.template import Context
+
+def hello(request):
+   name=request.GET["k"]
+   html="<html><body>Moro %s. Mita kuuluu?" % name
+   return HttpResponse(html)
+
