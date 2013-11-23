@@ -39,7 +39,7 @@
 			"file": "django_test/settings.py",
 			"settings":
 			{
-				"buffer_size": 2061,
+				"buffer_size": 2112,
 				"line_ending": "Unix"
 			}
 		},
@@ -52,21 +52,28 @@
 			}
 		},
 		{
-			"file": "templates/article.html",
+			"file": "article/templates/article.html",
 			"settings":
 			{
-				"buffer_size": 82,
+				"buffer_size": 238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 248,
 				"line_ending": "Unix",
 				"name": "<html>"
 			}
 		},
 		{
-			"file": "templates/articles.html",
+			"file": "article/templates/articles.html",
 			"settings":
 			{
-				"buffer_size": 201,
-				"line_ending": "Unix",
-				"name": "<html>"
+				"buffer_size": 355,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -81,15 +88,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 75.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 139.0
 	},
 	"distraction_free":
 	{
@@ -102,11 +109,16 @@
 	},
 	"file_history":
 	[
+		"/home/pasihe/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/pasihe/.config/sublime-text-2/Packages/User/HTML.sublime-settings",
+		"/home/pasihe/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/pasihe/python/django-sites/django_test/templates/article.html",
+		"/home/pasihe/python/django-sites/django_test/templates/articles.html",
 		"/home/pasihe/python/django-sites/django_test/templates/hello.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -120,6 +132,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"caret",
+			"cursor",
+			"caret"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -178,8 +193,8 @@
 						"selection":
 						[
 							[
-								242,
-								242
+								405,
+								405
 							]
 						],
 						"settings":
@@ -197,15 +212,15 @@
 					"file": "django_test/settings.py",
 					"settings":
 					{
-						"buffer_size": 2061,
+						"buffer_size": 2112,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
-								386
+								1579,
+								1579
 							]
 						],
 						"settings":
@@ -215,7 +230,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 612.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -232,8 +247,8 @@
 						"selection":
 						[
 							[
-								96,
-								96
+								68,
+								68
 							]
 						],
 						"settings":
@@ -248,23 +263,22 @@
 				},
 				{
 					"buffer": 4,
-					"file": "templates/article.html",
+					"file": "article/templates/article.html",
 					"settings":
 					{
-						"buffer_size": 82,
+						"buffer_size": 238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								81,
+								81
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<html>",
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -275,18 +289,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "templates/articles.html",
+					"file": "templates/base.html",
 					"settings":
 					{
-						"buffer_size": 201,
+						"buffer_size": 248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								43,
+								43
 							]
 						],
 						"settings":
@@ -302,6 +316,33 @@
 				},
 				{
 					"buffer": 6,
+					"file": "article/templates/articles.html",
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "django_test/urls.py",
 					"settings":
 					{
